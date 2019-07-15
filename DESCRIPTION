@@ -1,0 +1,14 @@
+Package: ruminant
+Title: A System for Modeling the Nutrient Requirement of Ruminants
+Version: 0.1.0.9000
+Authors@R: person("Youngjun", "Na", email = "ruminoreticulum@gmail.com", role = c("aut", "cre"))
+URL: https://github.com/adatalab/ruminant
+Description: This package contains the INRA and NRC models for beef and dairy cattle and small ruminants. 
+    It can be used with the other adatalab packages for feed formulation or visulization.
+Depends: R (>= 3.5.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    dplyr,
+    ggplot2
